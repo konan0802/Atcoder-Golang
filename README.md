@@ -1,0 +1,2 @@
+# Atcoder-Golang
+AtcoderをGolangで解いていった際の記録
