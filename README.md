@@ -1,5 +1,5 @@
 # Atcoder-Golang
-[Atcoder](https://atcoder.jp/home)をGolangで解いていった際の記録
+[Atcoder](https://atcoder.jp/home) をGolang で解いていった際の記録
 
 
 ### 参考
