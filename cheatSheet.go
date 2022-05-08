@@ -27,6 +27,9 @@ for sc.Scan() {
 // ーーーーーーーーーー出力ーーーーーーーーーー
 fmt.Println(str)
 
+// ーーーーーーーーーー終了ーーーーーーーーーー
+os.Exit(0)
+
 // ーーーーーーーーーーキャストーーーーーーーーーー
 
 // string -> int
@@ -37,12 +40,23 @@ x, _ := strconv.Atoi(str)
 
 // ーーーーーーーーーー配列ーーーーーーーーーー
 
+// 配列のstring -> int変換
+A := []int{}
+for _, v := range SA {
+	iv, _ := strconv.Atoi(v)
+	A = append(A, iv)
+}
+
+// 昇順ソート
+sort.Ints(s)
+
+// 降順ソート
+sort.Sort(sort.Reverse(sort.IntSlice(A)))
 
 // ーーーーーーーーーーライブラリーーーーーーーーーー
 
 
 // ーーーーーーーーーー自作関数ーーーーーーーーーー
-
 
 // ーーーーーーーーーーTIPSーーーーーーーーーー
 // 配列を全探索する処理は減らす
