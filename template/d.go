@@ -14,10 +14,10 @@ func main() {
 	solve()
 }
 
-// ファイル入力
+// 標準入力
 //var sc = bufio.NewScanner(os.Stdin)
 
-// 標準入力
+// ファイル入力
 var file, _ = os.Open("test.txt")
 var sc = bufio.NewScanner(file)
 
